@@ -137,6 +137,5 @@ for i in range(epochs):
 
 noise = Variable(torch.randn((bz, 100)).view(-1, 100, 1, 1))
 sample = G(noise)
-print(sample)
 
 
